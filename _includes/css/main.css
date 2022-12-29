@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    background-color: #f0f2f2;
 }
 
 p {
@@ -22,7 +23,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: black;
 }
 
 h1,
@@ -31,9 +32,9 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    text-transform: none;
+    font-family: 'Jost',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
 }
 
 hr.star-light,
@@ -59,21 +60,22 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #fff;
+    border-color: white;
 }
 
 hr.star-light:after {
-    color: #fff;
+    color: white;
     background-color: #{{ site.color.primary }};
 }
 
 hr.star-primary {
     border-color: #{{ site.color.secondary }};
+    display: none;
 }
 
 hr.star-primary:after {
     color: #{{ site.color.secondary }};
-    background-color: #fff;
+    background-color: white;
 }
 
 .img-centered {
@@ -82,13 +84,14 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
-    background: #{{ site.color.primary }};
+    color: white;
+    background: #f0f2f2;
+    height: 1px;
 }
 
 header .container {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 header img {
@@ -111,8 +114,8 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 
     header .intro-text .name {
@@ -126,32 +129,34 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 8px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
     }
 
     .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
+        font-size: 1em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
     }
 
     .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
+        padding: 0px 0;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
+        font-size: .95em;
     }
 }
 
 .navbar {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    text-transform: none;
+    font-family: 'Jost',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 1.3em;
+    background-color: black;
 }
 
 .navbar a:focus {
@@ -171,6 +176,31 @@ header .intro-text .skills {
     border: 0;
 }
 
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: white;
+    text-decoration-line: underline;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #bcc5c5;
+}
+
+.navbar-brand {
+    padding: 5px 15px 0px;
+}
+
+.sig {
+    max-width: 150px;
+    height: auto;
+    float: left;
+}
+
+.title {
+    float: left;
+    margin-top: 10px;
+    font-size: 1.15em;
+}
+
 section {
     padding: 100px 0;
 }
@@ -178,11 +208,12 @@ section {
 section h2 {
     margin: 0;
     font-size: 3em;
+    padding-bottom: 10px;
 }
 
 section.success {
-    color: #fff;
-    background: #{{ site.color.primary }};
+    color: black;
+    background: white;
 }
 
 @media(max-width:767px) {
@@ -205,6 +236,7 @@ section.success {
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+    border: solid 10px white;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -212,7 +244,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba({{ site.color.primary-rgb }},.9);
+    background: rgba(255, 255, 255, 0.5);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -230,7 +262,7 @@ section.success {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #fff;
+    color: white;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
@@ -248,7 +280,7 @@ section.success {
 
 @media(min-width:767px) {
     #portfolio .portfolio-item {
-        margin: 0 0 30px;
+        margin: 0 0 15px;
     }
 }
 
@@ -267,8 +299,8 @@ section.success {
   }
   @media (min-width: 960px) {
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-      flex: 1 0 32%;
-      max-width: 32%;
+      flex: 1 0 23.5%;
+      max-width: 23.5%;
     }
   }
   /* A large grid might need four columns on widescreen layouts */
@@ -283,7 +315,7 @@ section.success {
     margin-top: 15px;
     border: solid 2px #fff;
     font-size: 20px;
-    color: #fff;
+    color: white;
     background: 0 0;
     transition: all .3s ease-in-out;
 }
@@ -292,16 +324,20 @@ section.success {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px #fff;
-    color: #{{ site.color.primary }};
-    background: #fff;
+    border: solid 2px white;
+    color: white;
+    background: #c23a73;
+}
+
+.btn-success {
+    background-color: #a27;
 }
 
 .floating-label-form-group {
     position: relative;
     margin-bottom: 0;
     padding-bottom: .5em;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #bcc5c5;
 }
 
 .floating-label-form-group input,
@@ -343,10 +379,11 @@ section.success {
 .floating-label-form-group-with-value label {
     top: 0;
     opacity: 1;
+    color: #a27;
 }
 
 .floating-label-form-group-with-focus label {
-    color: #{{ site.color.primary }};
+    color: #a27;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -354,7 +391,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 footer {
-    color: #fff;
+    color: #bcc5c5;
 }
 
 footer h3 {
@@ -362,8 +399,7 @@ footer h3 {
 }
 
 footer .footer-above {
-    padding-top: 50px;
-    background-color: #{{ site.color.secondary }};
+    padding-top: 0px;
 }
 
 footer .footer-col {
@@ -371,15 +407,20 @@ footer .footer-col {
 }
 
 footer .footer-below {
-    padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
+  padding: 25px 0 175px;
+  background-color: black;
+  margin-top: -70px;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+    padding: 10px 20px;
 }
 
 .btn-social {
     display: inline-block;
     width: 50px;
     height: 50px;
-    border: 2px solid #fff;
+    border: 2px solid white;
     border-radius: 100%;
     text-align: center;
     font-size: 20px;
@@ -407,6 +448,7 @@ footer .footer-below {
     border-radius: 100%;
     font-size: 20px;
     line-height: 28px;
+    background-color: black;
 }
 
 .scroll-top .btn:focus {
@@ -414,7 +456,7 @@ footer .footer-below {
 }
 
 .portfolio-modal .modal-content {
-    padding: 100px 0;
+    padding: 50px 0;
     min-height: 100%;
     border: 0;
     border-radius: 0;
@@ -427,6 +469,7 @@ footer .footer-below {
 .portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
+    display: none;
 }
 
 .portfolio-modal .modal-content img {
@@ -435,14 +478,15 @@ footer .footer-below {
 
 .portfolio-modal .modal-content .item-details {
     margin: 30px 0;
+    display: none;
 }
 
 .portfolio-modal .close-modal {
     position: absolute;
-    top: 25px;
-    right: 25px;
-    width: 75px;
-    height: 75px;
+    top: 0px;
+    right: 0px;
+    width: 70px;
+    height: 70px;
     background-color: transparent;
     cursor: pointer;
 }
@@ -453,10 +497,10 @@ footer .footer-below {
 
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
-    width: 1px;
-    height: 75px;
+    width: 2px;
+    height: 50px;
     margin-left: 35px;
-    background-color: #{{ site.color.secondary }};
+    background-color: black;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -464,16 +508,24 @@ footer .footer-below {
 
 .portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
-    width: 1px;
-    height: 75px;
-    background-color: #{{ site.color.secondary }};
+    width: 2px;
+    height: 50px;
+    background-color: black;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
 
+.modal-body {
+    padding: 0px;
+}
+
 .navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
+    background-color: black !important;
+}
+
+.text-danger, .text-danger:hover {
+  color: #e22025;
 }
 
 /* Fix modal mouse wheel issues */
