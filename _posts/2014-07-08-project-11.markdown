@@ -1,11 +1,11 @@
 ---
 layout: default
-modal-id: 5
-date: 2014-07-14
-img: submarine.png
+modal-id: 11
+date: 2014-07-08
+img: game.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Use this area of the page to describe your project
+description: Use this area of the page to describe your project.
 ---
