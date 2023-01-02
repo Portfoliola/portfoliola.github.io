@@ -203,7 +203,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0;
+    padding: 90px 0;
 }
 
 section h2 {
@@ -225,10 +225,6 @@ section.success {
     section.first {
         padding-top: 75px;
     }
-}
-
-#portfolio h2
-    display: none;
 }
 
 #portfolio .portfolio-item {
