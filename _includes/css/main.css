@@ -228,6 +228,11 @@ section.success {
     }
 }
 
+.container {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -279,12 +284,6 @@ section.success {
 #portfolio * {
     z-index: 2;
 }
-
-  @media (min-width: 1200px)
-.container {
-  width: 992px;
-}
-
 
 @media(min-width:767px) {
     #portfolio .portfolio-item {
