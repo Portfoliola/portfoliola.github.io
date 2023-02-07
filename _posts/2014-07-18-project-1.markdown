@@ -5,7 +5,7 @@ date: 2023-02-07
 img: Through_the_Trees.jpg
 alt: Through the Trees
 project-date: February 2023
-client: Start Bootstrap
-category: Web Development
+client: 
+category: 
 description: 
 ---
