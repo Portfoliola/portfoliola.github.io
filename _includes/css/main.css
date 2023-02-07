@@ -228,6 +228,7 @@ section.success {
     }
 }
 
+@media(min-width:960px) {
 .container {
     padding-left: 130px;
     padding-right: 130px;
