@@ -280,6 +280,12 @@ section.success {
     z-index: 2;
 }
 
+  @media (min-width: 1200px)
+.container {
+  width: 992px;
+}
+
+
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 15px;
