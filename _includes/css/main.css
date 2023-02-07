@@ -441,7 +441,7 @@ footer .footer-below {
 }
 
 .btn-default {
-    margin-top: 20px;
+    margin-top: -85px;
 }
 
 .scroll-top {
@@ -484,8 +484,10 @@ footer .footer-below {
 }
 
 .portfolio-modal .modal-content img {
+    background-color: white;
     margin-bottom: 0px;
-    max-height: calc(-150px + 100vh);
+    padding: 15px 15px 60px 15px;
+    max-height: calc(-80px + 100vh);
 }
 
 .portfolio-modal .modal-content .item-details {
