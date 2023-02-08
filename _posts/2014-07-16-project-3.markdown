@@ -2,8 +2,8 @@
 layout: default
 modal-id: 3
 date: 2023-02-07
-img: Something's_Fishy.jpg
-alt: Something's Fishy
+img: Plein_Air_Painters.jpg
+alt: Plein Air Painters
 project-date: February 2023
 client: 
 category: 
