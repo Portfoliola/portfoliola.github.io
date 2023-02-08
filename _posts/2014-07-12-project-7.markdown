@@ -2,8 +2,8 @@
 layout: default
 modal-id: 7
 date: 2023-02-07
-img: Plein_Air_Painters.jpg
-alt: Plein Air Painters
+img: Home.jpg
+alt: Home
 project-date: February 2023
 client: 
 category: 
