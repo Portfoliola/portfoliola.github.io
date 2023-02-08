@@ -2,8 +2,8 @@
 layout: default
 modal-id: 8
 date: 2023-02-07
-img: The_Haircut.jpg
-alt: The Haircut
+img: Winter_Friends.jpg
+alt: Winter Friends
 project-date: February 2023
 client: 
 category: 
