@@ -2,8 +2,8 @@
 layout: default
 modal-id: 10
 date: 2023-02-07
-img: Home.jpg
-alt: Home
+img: The_Haircut.jpg
+alt: The Haircut
 project-date: February 2023
 client: 
 category: 
