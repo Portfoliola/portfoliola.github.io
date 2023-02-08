@@ -2,8 +2,8 @@
 layout: default
 modal-id: 4
 date: 2023-02-07
-img: Winter_Friends.jpg
-alt: Winter Friends
+img: Something's_Fishy.jpg
+alt: Something's Fishy
 project-date: February 2023
 client: 
 category: 
