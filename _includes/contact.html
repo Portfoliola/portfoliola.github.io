@@ -9,7 +9,7 @@
       <div class="col-lg-8 col-lg-offset-2">
         <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
         <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-        <form name="sentMessage" id="contactForm" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdsotjumr8UENyCQ84tuU4YqvgiC-zQa3dZj7TeHURi7Ebr9Q/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+        <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdsotjumr8UENyCQ84tuU4YqvgiC-zQa3dZj7TeHURi7Ebr9Q/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
           <div class="row control-group">
             <div class="form-group col-xs-12 floating-label-form-group controls">
               <label for="name">Name</label>
@@ -46,9 +46,9 @@
         <script src="assets/js/jquery.min.js"></script>
 <script type="text/javascript">var submitted=false;</script>
 <script type="text/javascript">
-$('#sentMessage').on('submit', function(e) {
-  $('#sentMessage *').fadeOut(2000);
-  $('#sentMessage').prepend('Thank you! Your submission has been received.');
+$('#gform').on('submit', function(e) {
+  $('#gform *').fadeOut(2000);
+  $('#gform').prepend('Thank you! Your submission has been received.');
   });
 </script>
       </div>
