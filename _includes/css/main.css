@@ -485,6 +485,7 @@ footer .footer-below {
     padding: 15px 15px 60px 15px;
     max-height: calc(-80px + 100vh);
     max-width: 750px;
+    margin-top: 90px;
 }
 
 .portfolio-modal .modal-content .item-details {
@@ -500,6 +501,7 @@ footer .footer-below {
     height: 70px;
     background-color: transparent;
     cursor: pointer;
+    z-index: 1000;
 }
 
 .portfolio-modal .close-modal:hover {
