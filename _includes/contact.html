@@ -41,7 +41,16 @@
               <button type="submit" class="btn btn-success btn-lg">Send</button>
             </div>
           </div>
-        </form><iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+        </form>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+        <script src="assets/js/jquery.min.js"></script>
+<script type="text/javascript">var submitted=false;</script>
+<script type="text/javascript">
+$('#contactForm').on('submit', function(e) {
+  $('#contactForm *').fadeOut(2000);
+  $('#contactForm').prepend('Thank you! Your submission has been received.');
+  });
+</script>
       </div>
     </div>
   </div>
