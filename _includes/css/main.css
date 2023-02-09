@@ -486,6 +486,8 @@ footer .footer-below {
     max-height: calc(-140px + 100vh);
     max-width: 750px;
     margin-top: 80px;
+    min-width: 110px;
+    min-height: 210px;
 }
 
 .portfolio-modal .modal-content .item-details {
