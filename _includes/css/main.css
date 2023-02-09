@@ -529,6 +529,10 @@ footer .footer-below {
     transform: rotate(90deg);
 }
 
+.modal-body {
+    padding: 0px;
+}
+
 .modal-content {
     background-color: transparent;
 }
