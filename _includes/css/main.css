@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    background-color: #f0f2f2;
+    background-color: black;
 }
 
 p {
@@ -205,6 +205,7 @@ header .intro-text .skills {
 
 section {
     padding: 100px 0;
+    background-color: #f0f2f2;
 }
 
 section h2 {
