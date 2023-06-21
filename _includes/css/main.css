@@ -321,7 +321,9 @@ user-select: none;
   border-radius: 3px 0 0 3px;
 }
 
-
+.btn {
+padding: 5px 10px;
+}
 
 /* Flexbox Portfolio Grid */
 @media (min-width: 640px) {
