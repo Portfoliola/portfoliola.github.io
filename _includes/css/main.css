@@ -26,6 +26,14 @@ a.active {
     color: black;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+color: #bcc5c5;
+}
+
 h1,
 h2,
 h3,
@@ -288,6 +296,33 @@ section.success {
     }
 }
 
+.prev, .next {
+  cursor: pointer;
+position: absolute;
+width: auto;
+padding: 16px;
+margin-top: -60px;
+color: black;
+font-weight: bold;
+font-size: 20px;
+transition: 0.3s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+-webkit-user-select: none;
+}
+
+.next {
+  left: 57%;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  right: 57%;
+  border-radius: 3px 0 0 3px;
+}
+
+
+
 /* Flexbox Portfolio Grid */
 @media (min-width: 640px) {
     .portfolio-flex-grid .portfolio-flex-row {
@@ -322,7 +357,7 @@ section.success {
     color: white;
     background: 0 0;
     transition: all .3s ease-in-out;
-}
+}  
 
 .btn-outline:hover,
 .btn-outline:focus,
@@ -417,7 +452,7 @@ footer .footer-below {
 }
 
 .btn-lg, .btn-group-lg > .btn {
-    padding: 10px 20px;
+    padding: 5px 10px;
 }
 
 .btn-social {
@@ -488,7 +523,7 @@ footer .footer-below {
     max-width: 750px;
     margin-top: 80px;
     min-width: 110px;
-    min-height: 210px;
+    min-height: 400px;
 }
 
 .portfolio-modal .modal-content .item-details {
