@@ -7,6 +7,6 @@ alt: Woodland Jam
 project-date: February 2023
 client: 
 category: 
-description: <a class="prev" href="#portfolioModal-1" data-toggle="modal" data-dismiss="modal">❮</a>
-<a class="next" href="#portfolioModal-3" data-toggle="modal" data-dismiss="modal">❯</a>
+description: 
 ---
+
