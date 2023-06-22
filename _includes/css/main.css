@@ -299,7 +299,7 @@ section.success {
 .prev, .next {
   cursor: pointer;
 position: absolute;
-width: auto;
+width: 65px;
 padding: 16px;
 margin-top: -60px;
 color: black;
