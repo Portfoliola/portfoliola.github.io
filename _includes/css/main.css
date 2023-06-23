@@ -589,6 +589,7 @@ max-width: 80%;
 
 .artwork {
   margin-left: 13%;
+    margin-top: 35px;
 }
 
 /* Fix modal mouse wheel issues */
