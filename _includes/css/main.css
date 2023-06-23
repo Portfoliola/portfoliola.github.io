@@ -584,12 +584,10 @@ max-width: 80%;
 }
 
 .figure-img.img-fluid.rounded {
-  max-width: 210px;
+  max-width: 200px;
 }
 
 .artwork {
-  margin-left: 13%;
-    margin-top: 35px;
 }
 
 /* Fix modal mouse wheel issues */
