@@ -583,6 +583,14 @@ max-width: 80%;
   color: #e22025;
 }
 
+.figure-img.img-fluid.rounded {
+  max-width: 250px;
+}
+
+.artwork {
+  margin-left: 13%;
+}
+
 /* Fix modal mouse wheel issues */
 /* https://github.com/twbs/bootstrap/issues/16297 */
 .modal.fade.in {
