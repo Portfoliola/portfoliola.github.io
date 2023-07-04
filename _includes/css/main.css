@@ -290,6 +290,13 @@ section.success {
     z-index: 2;
 }
 
+#portfolio img {
+  border: solid 10px white;
+  box-shadow: 3px 3px 3px lightgray;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 15px;
@@ -351,6 +358,11 @@ padding: 2px 6px;
       max-width: 23.5%;
     }
   } */
+
+@media (min-width: 640px)
+.portfolio-flex-grid .portfolio-flex-row {
+  align-items: center;
+}
 
 .btn-outline {
     margin-top: 15px;
