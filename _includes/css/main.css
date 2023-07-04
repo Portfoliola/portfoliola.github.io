@@ -121,7 +121,7 @@ header .intro-text .skills {
     font-weight: 300;
 }
 
-@media(min-width:768px) {
+(min-width:768px) {
     header .container {
         padding-top: 0px;
         padding-bottom: 0px;
@@ -337,7 +337,7 @@ padding: 2px 6px;
     .portfolio-flex-grid .portfolio-flex-row {
       display: flex;
       flex-flow: row wrap;
-      align-items: stretch;
+      align-items: center;
       justify-content: space-between;
     }
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
@@ -358,11 +358,6 @@ padding: 2px 6px;
       max-width: 23.5%;
     }
   } */
-
-@media (min-width: 640px)
-.portfolio-flex-grid .portfolio-flex-row {
-  align-items: center;
-}
 
 .btn-outline {
     margin-top: 15px;
