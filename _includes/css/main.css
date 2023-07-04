@@ -303,6 +303,21 @@ section.success {
     }
 }
 
+figcaption {
+text-align: center;
+font-style: italic
+color: #707676;
+}
+
+figure {
+padding: 5px;
+margin-top: 20px;
+max-width: 250px;
+}
+
+figure img {
+box-shadow: 3px 3px 3px lightgray;
+}
 
 .btn {
 padding: 2px 6px;
