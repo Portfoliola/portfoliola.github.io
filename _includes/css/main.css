@@ -197,6 +197,10 @@ header .intro-text .skills {
     padding: 5px 15px 5px;
 }
 
+.navbar-toggle {
+    display: none;
+}
+
 .sig {
     max-width: 150px;
     height: auto;
