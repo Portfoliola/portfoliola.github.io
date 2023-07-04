@@ -303,30 +303,6 @@ section.success {
     }
 }
 
-.prev, .next {
-  cursor: pointer;
-position: absolute;
-width: 65px;
-padding: 16px;
-margin-top: -60px;
-color: black;
-font-weight: bold;
-font-size: 20px;
-transition: 0.3s ease;
-border-radius: 0 3px 3px 0;
-user-select: none;
--webkit-user-select: none;
-}
-
-.next {
-  left: 57%;
-  border-radius: 3px 0 0 3px;
-}
-
-.prev {
-  right: 57%;
-  border-radius: 3px 0 0 3px;
-}
 
 .btn {
 padding: 2px 6px;
@@ -526,11 +502,7 @@ footer .footer-below {
 }
 
 .portfolio-modal .modal-content img {
-    background-color: white;
-margin-bottom: 0px;
-padding: 15px 15px 60px 15px;
-max-height: calc(-140px + 100vh);
-max-width: 80%;
+margin-bottom: 30px;
 }
 
 .portfolio-modal .modal-content .item-details {
@@ -589,13 +561,6 @@ max-width: 80%;
 
 .text-danger, .text-danger:hover {
   color: #e22025;
-}
-
-.figure-img.img-fluid.rounded {
-  max-width: 200px;
-}
-
-.artwork {
 }
 
 /* Fix modal mouse wheel issues */
