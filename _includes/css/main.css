@@ -26,9 +26,6 @@ a.active {
     color: white;
 }
 
-a:link {
-}
-
 a:hover {
 color: #bcc5c5;
 }
@@ -183,7 +180,7 @@ header .intro-text .skills {
     border: 0;
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav>.active>a {
     color: white;
     text-decoration-line: underline !important;
 }
