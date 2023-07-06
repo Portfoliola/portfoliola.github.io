@@ -31,7 +31,7 @@ a:active {
 }
 
 a:hover {
-color: #bcc5c5;
+color: #bcc5c5 !important;
 }
 
 h1,
@@ -185,7 +185,6 @@ header .intro-text .skills {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus
-    color: white;
     text-decoration-line: underline;
 }
 
