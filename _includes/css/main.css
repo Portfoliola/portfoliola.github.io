@@ -27,7 +27,6 @@ a.active {
 }
 
 a:link {
-  text-decoration: none;
 }
 
 a:hover {
@@ -161,7 +160,6 @@ header .intro-text .skills {
 }
 
 .navbar {
-    text-transform: none;
     font-family: 'Jost',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
     font-size: 1.3em;
@@ -187,7 +185,7 @@ header .intro-text .skills {
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus {
     color: white;
-    text-decoration-line: underline;
+    text-decoration-line: underline !important;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -581,6 +579,8 @@ margin-bottom: 30px;
 
 .navbar-nav>.active>a {
     background-color: black !important;
+    text-decoration-line: underline !important;
+    color: white;
 }
 
 .text-danger, .text-danger:hover {
