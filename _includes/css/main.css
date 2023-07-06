@@ -23,7 +23,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: white;
+    color: #{{ site.color.primary }};
 }
 
 a:link {
@@ -165,7 +165,6 @@ header .intro-text .skills {
     font-family: 'Jost',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
     font-size: 1.3em;
-    background-color: black;
 }
 
 .navbar a:focus {
@@ -185,7 +184,7 @@ header .intro-text .skills {
     border: 0;
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus {
     color: white;
     text-decoration-line: underline;
 }
