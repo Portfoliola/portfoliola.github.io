@@ -214,7 +214,7 @@ header .intro-text .skills {
     border: none;
 }
 
-.navbar-header.page-scroll .sig {
+.navbar-fixed-top.navbar-shrink .sig {
     max-width: 120px;
 }
 
