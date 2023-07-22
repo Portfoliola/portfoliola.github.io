@@ -204,7 +204,18 @@ header .intro-text .skills {
 }
 
 .navbar-toggle {
-    display: none;
+    position: absolute;
+    margin: 0px;
+    top: 5px;
+    right: 5px;
+}
+
+.navbar-default.navbar-toggle {
+    border: none;
+}
+
+.navbar-header.navbar-scroll .sig {
+    max-width: 120px;
 }
 
 .sig {
