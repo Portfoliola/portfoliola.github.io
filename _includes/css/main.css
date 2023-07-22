@@ -299,11 +299,12 @@ section.success {
     z-index: 2;
 }
 
-#portfolio img {
+#portfolio figure {
   border: solid 10px white;
   box-shadow: 3px 3px 3px lightgray;
   background-color: white;
   margin-bottom: 20px;
+  max-width: 100%;
 }
 
 @media(min-width:767px) {
@@ -312,20 +313,26 @@ section.success {
     }
 }
 
-figcaption {
+#portfolio figcaption {
+font-family: 'Dancing Script', cursive;
+font-weight: 700;
+font-size: 1.9em;
+color: black;
+}
+
+#about figcaption {
 text-align: center;
 font-style: italic;
 color: #707676;
 margin-top: 15px;
 }
 
-figure {
-padding: 5px;
+#about figure {
 margin-top: 20px;
 max-width: 250px;
 }
 
-figure img {
+#about figure img {
 box-shadow: 3px 3px 3px lightgray;
 }
 
