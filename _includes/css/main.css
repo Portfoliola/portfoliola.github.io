@@ -392,7 +392,8 @@ padding: 2px 6px;
 
 .btn-success {
     background-color: #a27;
-      border-color: #a27;
+    border-color: #a27;
+    margin-bottom: 50px;
 }
 
 .floating-label-form-group {
