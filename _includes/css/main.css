@@ -210,12 +210,8 @@ header .intro-text .skills {
     right: 5px;
 }
 
-.navbar-default.navbar-toggle {
-    border: none;
-}
-
-.navbar-fixed-top.navbar-shrink .sig {
-    max-width: 120px;
+.navbar-default .navbar-toggle {
+    border-color: transparent;
 }
 
 .sig {
