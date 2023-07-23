@@ -210,8 +210,24 @@ header .intro-text .skills {
     right: 5px;
 }
 
+.navbar-toggle:focus {
+    background-color: transparent;
+}
+
 .navbar-default .navbar-toggle {
     border-color: transparent;
+}
+
+@media(max-width:450px) {
+  #portfolio figcaption {
+    font-size: 1.3em;
+  }
+}
+
+@media(max-width:450px) {
+  #portfolio figure {
+    border: solid 5px white;
+  }
 }
 
 @media(max-width:200px) {
