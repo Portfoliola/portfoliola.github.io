@@ -210,6 +210,10 @@ header .intro-text .skills {
     right: 5px;
 }
 
+.navbar-toggle:hover {
+    background-color: transparent;
+}
+
 .navbar-default .navbar-toggle {
     border-color: transparent;
 }
