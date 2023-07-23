@@ -324,15 +324,6 @@ section.success {
     z-index: 2;
 }
 
-@media(max-width:360px) {
-  figcaption {
-    font-size: 1.3em;
-  }
-  figure {
-    border: solid 5px white;
-  }
-}
-
 figure {
   border: solid 10px white;
   box-shadow: 3px 3px 3px lightgray;
@@ -353,6 +344,15 @@ font-weight: 700;
 font-size: 1.9em;
 text-align: center;
 color: black;
+}
+
+@media(max-width:360px) {
+  figcaption {
+    font-size: 1.3em;
+  }
+  figure {
+    border: solid 5px white;
+  }
 }
 
 #about figcaption {
