@@ -230,12 +230,6 @@ header .intro-text .skills {
   .sig {
     width: 120px;
   }
-  figcaption {
-    font-size: 1.3em;
-  }
-  figure {
-    border: solid 5px white;
-  }
 }
 
 .sig {
@@ -328,6 +322,15 @@ section.success {
 
 #portfolio * {
     z-index: 2;
+}
+
+@media(max-width:360px) {
+  figcaption {
+    font-size: 1.3em;
+  }
+  figure {
+    border: solid 5px white;
+  }
 }
 
 figure {
