@@ -230,9 +230,7 @@ header .intro-text .skills {
   figcaption {
     font-size: 1.3em;
   }
-}
-
-@media(max-width:450px) {
+    
   figure {
     border: solid 5px white;
   }
@@ -366,13 +364,13 @@ text-align: center;
 font-style: italic;
 color: #707676;
 margin-top: 15px;
-box-shadow: none;
 }
 
 #about figure {
 margin-top: 20px;
 max-width: 250px;
 border: none;
+box-shadow: none;
 }
 
 #about figure img {
