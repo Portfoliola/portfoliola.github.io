@@ -361,10 +361,12 @@ color: black;
 #about figcaption {
 font-family: 'Jost',"Helvetica Neue",Helvetica,Arial,sans-serif;
 font-size: 15px;
+font-weight: normal;
 text-align: center;
 font-style: italic;
 color: #707676;
 margin-top: 15px;
+box-shadow: none;
 }
 
 #about figure {
