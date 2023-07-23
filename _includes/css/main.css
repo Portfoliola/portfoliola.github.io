@@ -216,7 +216,7 @@ header .intro-text .skills {
 
 @media(max-width:200px) {
   .sig {
-    max-width: 120px;
+    width: 120px;
   }
 }
 
