@@ -210,6 +210,10 @@ header .intro-text .skills {
     right: 5px;
 }
 
+.navbar-toggle:active {
+    background-color: transparent;
+}
+
 .navbar-toggle:focus {
     background-color: transparent;
 }
@@ -355,6 +359,8 @@ color: black;
 }
 
 #about figcaption {
+font-family: 'Jost',"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 15px;
 text-align: center;
 font-style: italic;
 color: #707676;
@@ -364,6 +370,7 @@ margin-top: 15px;
 #about figure {
 margin-top: 20px;
 max-width: 250px;
+border: none;
 }
 
 #about figure img {
