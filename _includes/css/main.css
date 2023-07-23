@@ -210,12 +210,14 @@ header .intro-text .skills {
     right: 5px;
 }
 
-.navbar-toggle:hover {
-    background-color: transparent;
-}
-
 .navbar-default .navbar-toggle {
     border-color: transparent;
+}
+
+@media only screen and (max-width: 200px) {
+  .sig {
+    max-width: 120px;
+  }
 }
 
 .sig {
