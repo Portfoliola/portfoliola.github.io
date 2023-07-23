@@ -226,19 +226,15 @@ header .intro-text .skills {
     border-color: transparent;
 }
 
-@media(max-width:450px) {
+@media(max-width:360px) {
+  .sig {
+    width: 120px;
+  }
   figcaption {
     font-size: 1.3em;
   }
-    
   figure {
     border: solid 5px white;
-  }
-}
-
-@media(max-width:200px) {
-  .sig {
-    width: 120px;
   }
 }
 
