@@ -2,8 +2,8 @@
 layout: default
 modal-id: 8
 date: 2023-02-07
-img: Winter_Friends.jpg
-alt: Winter Friends
+img: The-Lilac-Bush.jpg
+alt: The Lilac Bush
 project-date: February 2023
 client: 
 category: 
