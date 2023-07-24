@@ -2,8 +2,8 @@
 layout: default
 modal-id: 9
 date: 2023-02-07
-img: A_Stellar_Dream.jpg
-alt: A Stellar Dream
+img: The-Haircut.jpg
+alt: The Haircut
 project-date: February 2023
 client: 
 category: 
