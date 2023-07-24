@@ -605,6 +605,12 @@ footer .footer-below {
   background-color: white;
 }
 
+@media(max-width:360px) {
+  .portfolio-modal .modal-content img {
+    border: 5px solid white;
+  }
+}
+
 .portfolio-modal .modal-content .item-details {
     margin: 30px 0;
     display: none;
