@@ -2,8 +2,8 @@
 layout: default
 modal-id: 12
 date: 2023-02-07
-img: Day_at_the_Beach.jpg
-alt: Day at the Beach
+img: Blanket-Bunny.jpg
+alt: Blanket Bunny
 project-date: February 2023
 client: 
 category: 
