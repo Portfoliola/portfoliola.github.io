@@ -2,7 +2,7 @@
 layout: default
 modal-id: 2
 date: 2023-02-07
-img: Cat-Café.jpg
+img: Cat-Cafe.jpg
 alt: Cat Café
 project-date: February 2023
 client: 
