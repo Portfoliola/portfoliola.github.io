@@ -2,8 +2,8 @@
 layout: default
 modal-id: 7
 date: 2023-02-07
-img: Home.jpg
-alt: Home
+img: Day-at-the-Beach.jpg
+alt: Day at the Beach
 project-date: February 2023
 client: 
 category: 
